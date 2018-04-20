@@ -71,8 +71,8 @@ module.exports = {
               {
                 loader: "css-loader",
                 query: {
-                  modules: true,
-                  localIdentName: "[path]___[name]__[local]___[hash:base64:5]",
+                  // modules: true,
+                  // localIdentName: "[path]___[name]__[local]___[hash:base64:5]",
                   minimize: true
                 }
               },
@@ -103,12 +103,12 @@ module.exports = {
                   sourceMap: true
                 }
               },
-              {
-                loader: "sass-resources-loader",
-                options: {
-                  resources: "./src/global.scss"
-                }
-              }
+              // {
+              //   loader: "sass-resources-loader",
+              //   options: {
+              //     resources: "./src/global.scss"
+              //   }
+              // }
             ]
           },
           {
