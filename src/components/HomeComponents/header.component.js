@@ -2,7 +2,7 @@ import React from "react";
 import logoWhite from "../../assets/images/logo-white.png";
 import { Link } from "react-router-dom";
 
-const Header = () => (
+const HeaderComponent = () => (
   <header className="header">
     <div className="header__logo-box">
       <img className="header__logo" src={logoWhite} alt="header__logo" />
@@ -18,4 +18,4 @@ const Header = () => (
     </div>
   </header>
 );
-export default Header;
+export default HeaderComponent;

@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Header from "../components/header/header";
+import HomePage from "../pages/home.page";
 
 const AppRouter = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/" component={Header} />
+      <Route path="/" component={HomePage} />
     </Switch>
   </BrowserRouter>
 );
